@@ -9,7 +9,7 @@ This repository contains an official implementation of the paper:
 
 Dongjie Zhu, Zhuo Yang, Tianhang Wu, Luzhou Ge, Xuesong Li, Qi Liu*, Xiang Li*
 
-[[Website](https://xander-2077.github.io/Dribble_HRL/)], [Paper (Comming soon)], [[Video](https://youtu.be/7Hf6mCO0mZU)]
+[[Website](dribble-hrl.github.io)], [Paper (https://arxiv.org/abs/2504.14989)], [[Video](https://youtu.be/7Hf6mCO0mZU)]
 
 ## Installation
 
