@@ -1,15 +1,15 @@
 # Dribble-HRL ⚽
 
 > [!IMPORTANT]  
-> TODO
+> Work in progress
 
-This repository contains an official implementation of the paper:
+This repository contains an official implementation of our paper:
+***Dynamic Legged Ball Manipulation on Rugged Terrains with Hierarchical Reinforcement Learning***.
+For more information, see our paper and video.
 
-**Dynamic Legged Ball Manipulation on Rugged Terrains with Hierarchical Reinforcement Learning**
+<h3> <a href="https://github.com/locomanip-duet/locomanip-duet.github.io/blob/master/RoboDuet.pdf">📝 Paper</a> | <a href="https://locomanip-duet.github.io/"> 🌐 Website</a> | <a href="https://youtu.be/7Hf6mCO0mZU?si=6pKfS5zPOw_5GbGS"> 🎬 Video</a></h3>
 
-Dongjie Zhu, Zhuo Yang, Tianhang Wu, Luzhou Ge, Xuesong Li, Qi Liu*, Xiang Li*
-
-[[Website](dribble-hrl.github.io)], [Paper (https://arxiv.org/abs/2504.14989)], [[Video](https://youtu.be/7Hf6mCO0mZU)]
+</br>
 
 ## Installation
 
@@ -27,16 +27,16 @@ Download the Isaac Gym from the [official website](https://developer.nvidia.com/
 ### Install Dribble-HRL and its dependencies
 
 ```bash
-cd Dribble-HRL
-pip install -e .
-cd algo 
-pip install -e .
+[Dribble_HRL]$ pip install -e .
+[Dribble_HRL]$ cd algo 
+[algo]$ pip install -e .
 ```
 
 ### Something else
 ```bash
 pip install tensorboard
 ```
+</br>
 
 ## Run
 ### Train
@@ -53,5 +53,24 @@ cd scripts
 python play.py  # add --help to see more options
 ```
 
+</br>
 
+## Acknowledgement
+The base implementation for IsaacGym environment is largely borrowed from [DribbleBot](https://github.com/Improbable-AI/dribblebot). 
+The PPO implementation is based on [rsl_rl](https://github.com/leggedrobotics/rsl_rl).
+We are deeply grateful for their contribution to the open-source community.
 
+</br>
+
+## Citation
+```
+@misc{zhu2025dynamicleggedballmanipulation,
+      title={Dynamic Legged Ball Manipulation on Rugged Terrains with Hierarchical Reinforcement Learning}, 
+      author={Dongjie Zhu and Zhuo Yang and Tianhang Wu and Luzhou Ge and Xuesong Li and Qi Liu and Xiang Li},
+      year={2025},
+      eprint={2504.14989},
+      archivePrefix={arXiv},
+      primaryClass={cs.RO},
+      url={https://arxiv.org/abs/2504.14989}, 
+}
+```
